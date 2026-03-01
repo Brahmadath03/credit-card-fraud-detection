@@ -94,14 +94,11 @@ Difference between probability-based ROC-AUC and label-based metrics
 
 credit-card-fraud-detection/
 │
-├── data/
-├── notebooks/
-├── main.py
-├── predict.py
-├── models/
-├── README.md
-├── requirements.txt
-└── .gitignore
-
-
-
+├── 📂 data/
+├── 📂 notebooks/
+├── 📂 models/
+├── 📄 main.py
+├── 📄 predict.py
+├── 📄 README.md
+├── 📄 requirements.txt
+└── 📄 .gitignore
