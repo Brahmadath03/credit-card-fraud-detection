@@ -6,52 +6,52 @@ This project aims to detect fraudulent credit card transactions using machine le
 
 # Dataset
 
-Synthetic credit card fraud dataset (10,000 transactions)
-Target variable: is_fraud
-Includes features like:
-transaction amount
-transaction hour
-merchant category
-device trust score
-velocity (last 24 hours)
+- Synthetic credit card fraud dataset (10,000 transactions)
+- Target variable: is_fraud
+- Includes features like:
+- transaction amount
+- transaction hour
+- merchant category
+- device trust score
+- velocity (last 24 hours)
 
-# Tech Stack
+# ⚙️ Tech Stack
 
-Python
-Pandas
-Scikit-learn
-Imbalanced-learn (SMOTE)
-Matplotlib
-Seaborn
-XGBOOST
+- Python
+- Pandas
+- Scikit-learn
+- Imbalanced-learn (SMOTE)
+- Matplotlib
+- Seaborn
+- XGBOOST
 
 # Machine Learning Workflow
 
-Data Cleaning
-One-hot encoding for categorical features
-Feature scaling
-Train-test split (Stratified)
-Handling class imbalance using SMOTE
+- Data Cleaning
+- One-hot encoding for categorical features
+- Feature scaling
+- Train-test split (Stratified)
+- Handling class imbalance using SMOTE
 
 # Model Training:
-Logistic Regression
-Random Forest
+- Logistic Regression
+- Random Forest
 
 # Model Evaluation:
-Confusion Matrix
-Classification Report
-ROC-AUC Score
-Hyperparameter tuning using GridSearchCV
+- Confusion Matrix
+- Classification Report
+- ROC-AUC Score
+- Hyperparameter tuning using GridSearchCV
 
 # Model Performance
 
 Evaluated using:
 
-Precision
-Recall
-F1-score
-ROC-AUC
-Random Forest performed better after hyperparameter tuning.
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
+- Random Forest performed better after hyperparameter tuning.
 
 # Why Recall is Important?
 
@@ -69,23 +69,28 @@ Difference between probability-based ROC-AUC and label-based metrics
 
 # How to Run?
 
-pip install -r requirements.txt
-python main.py
+- pip install -r requirements.txt
+- python main.py
 
+## 📊 Model Evaluation
+- ROC-AUC: 0.XX
+- PR-AUC: 0.XX
+- Threshold tuning implemented
 
 # Future Improvements
 
-Add model deployment using Flask
-Add feature importance visualization
-Add real-time fraud prediction simulation
+- Add model deployment using Flask
+- Add feature importance visualization
+- Add real-time fraud prediction simulation
 
-# Features
+# 🚀 Features
 - Imbalanced dataset handling
 - Threshold tuning
 - ROC-AUC & PR-AUC evaluation
 - Model comparison
 - SHAP explainability (Planned)
 
+## 📁 Project Structure
 
 
 
