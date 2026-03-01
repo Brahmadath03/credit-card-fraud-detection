@@ -91,7 +91,7 @@ Difference between probability-based ROC-AUC and label-based metrics
 - SHAP explainability (Planned)
 
 # 📁 Project Structure
-
+```
 credit-card-fraud-detection/
 │
 ├── 📂 data/
@@ -102,3 +102,4 @@ credit-card-fraud-detection/
 ├── 📄 README.md
 ├── 📄 requirements.txt
 └── 📄 .gitignore
+```
