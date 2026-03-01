@@ -90,7 +90,18 @@ Difference between probability-based ROC-AUC and label-based metrics
 - Model comparison
 - SHAP explainability (Planned)
 
-## 📁 Project Structure
+# 📁 Project Structure
+
+credit-card-fraud-detection/
+│
+├── data/
+├── notebooks/
+├── main.py
+├── predict.py
+├── models/
+├── README.md
+├── requirements.txt
+└── .gitignore
 
 
 
